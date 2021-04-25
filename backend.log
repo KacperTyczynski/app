@@ -25,3 +25,22 @@
 [2021-04-25T19:10:05.522Z][USER CONTROLLER] [34mdebug[39m: Add user request: {"email":"tyczynski.kacper1@gmail.com","rss":[]}
 [2021-04-25T19:10:08.449Z][USER CONTROLLER] [34mdebug[39m: Add user request: {"email":"tyczynski.kacper1@gmail.com","rss":["https://www.reddit.com/.rss"]}
 [2021-04-25T19:10:10.414Z][MAIL CONTROLLER] [34mdebug[39m: Build mail for: tyczynski.kacper1@gmail.com
+[2021-04-25T19:30:36.906Z][APP] [32minfo[39m:  ___ ___ ___ ___  __  __   _   ___ _     
+[2021-04-25T19:30:36.909Z][APP] [32minfo[39m: | __| __| __|   \|  \/  | /_\ |_ _| |    
+[2021-04-25T19:30:36.909Z][APP] [32minfo[39m: | _|| _|| _|| |) | |\/| |/ _ \ | || |__  
+[2021-04-25T19:30:36.910Z][APP] [32minfo[39m: |_| |___|___|___/|_|  |_/_/ \_\___|____| 
+[2021-04-25T19:30:36.910Z][APP] [32minfo[39m:  Wcale tego nie podkradłem                
+[2021-04-25T19:30:36.911Z][APP] [32minfo[39m: listen on port: 8080                   
+[2021-04-25T19:30:36.944Z][DATABASE] [32minfo[39m: successful establish DB connection
+[2021-04-25T19:30:43.213Z][USER CONTROLLER] [34mdebug[39m: Find user: 
+[2021-04-25T19:30:47.144Z][USER CONTROLLER] [34mdebug[39m: Add user request: {"email":"tyczynski.kacper1@gmail.com","rss":["https://www.reddit.com/.rss"]}
+[2021-04-25T19:30:49.268Z][MAIL CONTROLLER] [34mdebug[39m: Build mail for: tyczynski.kacper1@gmail.com
+[2021-04-25T19:33:56.021Z][USER CONTROLLER] [34mdebug[39m: Find user: 
+[2021-04-25T19:33:59.840Z][MAIL CONTROLLER] [34mdebug[39m: Build mail for: tyczynski.kacper1@gmail.com
+[2021-04-25T19:34:50.873Z][APP] [32minfo[39m:  ___ ___ ___ ___  __  __   _   ___ _     
+[2021-04-25T19:34:50.875Z][APP] [32minfo[39m: | __| __| __|   \|  \/  | /_\ |_ _| |    
+[2021-04-25T19:34:50.876Z][APP] [32minfo[39m: | _|| _|| _|| |) | |\/| |/ _ \ | || |__  
+[2021-04-25T19:34:50.876Z][APP] [32minfo[39m: |_| |___|___|___/|_|  |_/_/ \_\___|____| 
+[2021-04-25T19:34:50.877Z][APP] [32minfo[39m:  Wcale tego nie podkradłem                
+[2021-04-25T19:34:50.877Z][APP] [32minfo[39m: listen on port: 8080                   
+[2021-04-25T19:34:50.904Z][DATABASE] [32minfo[39m: successful establish DB connection

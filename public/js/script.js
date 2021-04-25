@@ -86,23 +86,23 @@ fetch(`/v1/mail?email=${email}`, {
 
 // eslint-disable-next-line no-unused-vars
 function getPreview () {
-const email = document.getElementById('input_email').value
-
-fetch(`/v1/mail?email=${email}`, {
-    method: 'GET'
-})
-    .then(res => {
-    return res.text()
+    const email = document.getElementById('input_email').value
+    console.log('DZIALAJ')
+    fetch(`/v1/mail?email=${email}`, {
+        method: 'GET'
     })
-    .then(data => {
-    var doc = document.getElementById('iframe_mail').contentWindow.document
-    doc.open()
-    doc.write(data)
-    doc.close()
-    })
-    .catch((error) => {
-    alert('Request failed.' + JSON.stringify(error))
-    })
+        .then(res => {
+        return res.text()
+        })
+        .then(data => {
+        var doc = document.getElementById('iframe_mail').contentWindow.document
+        doc.open()
+        doc.write(data)
+        doc.close()
+        })
+        .catch((error) => {
+        alert('Request failed.' + JSON.stringify(error))
+        })
 }
 
 function getData () {
