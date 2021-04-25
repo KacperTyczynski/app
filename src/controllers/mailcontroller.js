@@ -31,6 +31,7 @@ this.send = async (email, content) => {
     }
 
     await _sender.send(email, content)
+    //console.log('elo')
 }
 }
 
