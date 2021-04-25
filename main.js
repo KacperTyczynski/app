@@ -10,7 +10,7 @@ app.listen(port, () => {
     logger.info({ label: 'APP', message: `| __| __| __|   \\|  \\/  | /_\\ |_ _| |    ` })
     logger.info({ label: 'APP', message: `| _|| _|| _|| |) | |\\/| |/ _ \\ | || |__  ` })
     logger.info({ label: 'APP', message: `|_| |___|___|___/|_|  |_/_/ \\_\\___|____| ` })
-    logger.info({ label: 'APP', message: `                                         ` })
+    logger.info({ label: 'APP', message: ` Wcale tego nie podkradłem                ` })
     logger.info({ label: 'APP', message: `listen on port: ${port}                   ` })
 })
 
